@@ -91,12 +91,12 @@ include 'components/add_cart.php';
 
 <section class="products">
 
-   <h1 class="title">Cel mai nou preparat</h1>
+   <h1 class="title">Cele mai noi preparate</h1>
 
    <div class="box-container">
 
       <?php
-         $select_products = $conn->prepare("SELECT * FROM `products` LIMIT 6");
+         $select_products = $conn->prepare("SELECT * FROM `products` LIMIT 3");
          $select_products->execute();
          if($select_products->rowCount() > 0){
             while($fetch_products = $select_products->fetch(PDO::FETCH_ASSOC)){
@@ -153,7 +153,7 @@ include 'components/add_cart.php';
 
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
-<!-- custom js file link  -->
+
 <script src="js/script.js"></script>
 
 <script>

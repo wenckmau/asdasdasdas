@@ -57,7 +57,7 @@ include 'components/add_cart.php';
 
    <a href="category.php?category=Felul 1" class="box">
       <img src="images/cat-2.png" alt="">
-      <h3>Felul intnai</h3>
+      <h3>Felul intai</h3>
    </a>
 
    <a href="category.php?category=Bauturi" class="box">
