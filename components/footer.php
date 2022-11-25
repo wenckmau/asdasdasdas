@@ -28,9 +28,6 @@
          <a href="tel:1112223333">0710434239</a>
       </div>
 
-   </section>
-
-   
 
 </footer>
 

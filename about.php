@@ -43,124 +43,10 @@ if(isset($_SESSION['user_id'])){
 
 
 <section class="about">
+<h1>spl_autoload_extensions</h1>
+   
 
-   <div class="row">
-
-      <div class="image">
-         <img src="images/about-img.svg" alt="">
-      </div>
-
-      <div class="content">
-         <h3>Istoric</h3>
-         <p>B.S FOOD A început când Micheal, Lucian au deschis primul restaurant în Hunedoara, astfel pornind spre succes cu pași repezi. De-a lungul a 10 ani au fost deschise restaurante în toată țara, devenind una dintre cele mai populare lanțuri de mâncare din România</p>
-         <a href="menu.php" class="btn">Meniu</a>
-      </div>
-
-   </div>
-
-</section>
-
-
-
-<section class="steps">
-
-   <h1 class="title">De ce noi</h1>
-
-   <div class="box-container">
-
-      <div class="box">
-         <img src="images/step-1.png" alt="">
-         <h3>Usor de comandat</h3>
-         <p>Mancarea ta preferta este doar la un click distanta</p>
-      </div>
-
-      <div class="box">
-         <img src="images/step-2.png" alt="">
-         <h3>Livrare rapida</h3>
-         <p>Mancarea ta va ajunge mereu calda si gata de pus pe masa</p>
-      </div>
-
-      <div class="box">
-         <img src="images/step-3.png" alt="">
-         <h3>Mancare foarte gustoasa</h3>
-         <p>Preparatele noastre sunt facute cu ingrediente proaspete si de bucatari cu experienta</p>
-      </div>
-
-   </div>
-
-</section>
-
-
-
-<section class="reviews">
-
-   <h1 class="title">Parerea clientilor</h1>
-
-   <div class="swiper reviews-slider">
-
-      <div class="swiper-wrapper">
-
-         <div class="swiper-slide slide">
-            <img src="images/pic-1.png" alt="">
-            <p>Mancare buna si servici ok</p>
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-            </div>
-            <h3>Alex Darabant</h3>
-         </div>
-
-         <div class="swiper-slide slide">
-            <img src="images/pic-2.png" alt="">
-            <p>Am comanda mancarea si niic nu am apucat sa ma ridic din pat si mancarea era deja la mine la usa</p>
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star-half-alt"></i>
-            </div>
-            <h3>Tabac Andrei</h3>
-         </div>
-
-         <div class="swiper-slide slide">
-            <img src="images/pic-3.png" alt="">
-            <p>Mancarea are gust bun si este perfecta pentru zilele in care nu vrei sa gatesti</p>
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               
-            </div>
-            <h3>Tivda Andrei</h3>
-         </div>
-
-         <div class="swiper-slide slide">
-            <img src="images/pic-4.png" alt="">
-            <p>Nu am mancat mancare mai buna ca asta</p>
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-
-            </div>
-            <h3>Vasilache Denis</h3>
-         </div>
-
-         
-
-        
-
-      </div>
-
-      <div class="swiper-pagination"></div>
-
-   </div>
+   
 
 </section>
 
@@ -192,34 +78,7 @@ if(isset($_SESSION['user_id'])){
 
 
 
-<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
-<script src="js/script.js"></script>
-
-<script>
-
-var swiper = new Swiper(".reviews-slider", {
-   loop:true,
-   grabCursor: true,
-   spaceBetween: 20,
-   pagination: {
-      el: ".swiper-pagination",
-      clickable:true,
-   },
-   breakpoints: {
-      0: {
-      slidesPerView: 1,
-      },
-      700: {
-      slidesPerView: 2,
-      },
-      1024: {
-      slidesPerView: 3,
-      },
-   },
-});
-
-</script>
 
 </body>
 </html>
