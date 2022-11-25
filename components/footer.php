@@ -27,10 +27,21 @@
          <a href="tel:1234567890">0710234212</a>
          <a href="tel:1112223333">0710434239</a>
       </div>
-
+<img src="images/moon.png" id="icon">
    </section>
 
-   
+   <script>
+      var icon = document.getelementbyid("icon");
+      icon.onclick=function(){
+document.body.classlist.toggle("dark-mode");
+if(document.body.classlist.containts("dark-mode")){
+icon.src="sun.png";}
+else 
+{icon.src="moon.png";}
+
+      }
+
+      </script>
 
 </footer>
 
